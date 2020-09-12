@@ -6,10 +6,6 @@ Let's make a game!
 	updated:12/09/2020
 	version:1
 
-Settings
-	background:stuff/meadow.jpg
-	stylesheet:stuff/bigBlue.css
-
 Layout
 	use default
 	

@@ -8,10 +8,28 @@ Let's make a game!
 
 Settings
 	background:stuff/meadow.jpg
-	building cost increase:115%
-	building cost refund:50%
-	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
 	use default
+	
+Buttons
+	*byteButton
+		name:Process a byte
+		desc:Click the CPU to process a byte!
+		on click:anim icon wobble
+		on click:yield 1 byte
+		icon:stuff/cpu.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+		
+Resources
+	*byte|bytes
+		name:Byte|Bytes
+		desc:These are bytes, they do computer stuff!
+		icon:icons[0,0]
+		class:noBackground
+		show earned
